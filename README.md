@@ -9,7 +9,7 @@ When you want to use it.
 import lcu_connector_python as lcu
 api_connection_data = lcu.connect()
 ```
-If League of Legends is not install in the defualt location, "C:/Riot Games/League of Legends", then you will need to pass the location of your league folder. Example:
+If League of Legends is not installed in the defualt location, "C:/Riot Games/League of Legends", then you will need to pass the location of your league folder. Example:
 ```
 import lcu_connector_python as lcu
 api_connection_data = lcu.connect("C:/Riot Games/League of Legends/RADS/projects/league_client/releases/0.0.0.178/deploy/LeagueClient.exe")
